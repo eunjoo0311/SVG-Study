@@ -1,10 +1,19 @@
 <svg width="200" height="200">
   <defs>
-    <radialGradient id="radial" cx="20%" cy="20%" r="30%">
-      <stop offset="0%" stop-color="#8467B9" />
-      <stop offset="50%" stop-color="#F0645C" />
-      <stop offset="100%" stop-color="#30a4a4" />
+    <radialGradient id="radial1" cx="20%" cy="20%" r="30%">
+      <stop offset="0%" stop-color="#F0645C" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#F0645C" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#F0645C" />
     </radialGradient>
   </defs>
-  <rect x="10" y="10" width="50" height="50" fill="url(#radial)" />
+  <rect x="10" y="10" width="50" height="50" fill="url(#radial1)" />
+
+  <defs>
+    <radialGradient id="radial2" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#30a4a4" />
+      <stop offset="50%" stop-color="#F0645C" />
+      <stop offset="100%" stop-color="#8467B9" />
+    </radialGradient>
+  </defs>
+  <rect x="10" y="70" width="50" height="50" fill="url(#radial2)" />
 </svg>
