@@ -1,16 +1,18 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="Gradient1">
+      <!-- 수평방향 그라데이션 하기 때문에 x1 x2 y1 속성 지정 안함 -->
       <stop offset="5%" stop-color="white" />
       <stop offset="95%" stop-color="blue" />
     </linearGradient>
     <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+      <!-- 수직방향 그라데이션 하기 때문에 x1 x2 y1 속성 지정 -->
       <stop offset="5%" stop-color="red" />
       <stop offset="95%" stop-color="orange" />
     </linearGradient>
 
-    <pattern id="Pattern" x="0" y="0" width=".25" height=".25">
-      <rect x="0" y="0" width="50" height="50" fill="skyblue" />
+    <pattern id="Pattern" x="0" y="0" width=".2" height=".2">
+      <rect x="0" y="0" width="40" height="50" fill="skyblue" />
       <rect x="0" y="0" width="25" height="25" fill="url(#Gradient2)" />
       <circle
         cx="25"
